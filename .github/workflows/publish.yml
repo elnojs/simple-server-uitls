@@ -11,13 +11,13 @@ on:
 
 jobs:
   build:
-    env:
-       NPM_TOKEN:${{ secrets.NPM_TOKEN }}
+   
     runs-on: ubuntu-latest
-
+    env:
+      NPM_TOKEN:${{ secrets.NPM_TOKEN }}
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [12.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
