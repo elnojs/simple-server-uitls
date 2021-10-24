@@ -2,7 +2,8 @@
   "name": "simple-server-uitls",
   "version": "0.0.1",
   "description": "elno js simple server utility function",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "npm run test",
     "build": "tsc"
