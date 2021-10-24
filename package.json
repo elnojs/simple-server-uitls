@@ -1,0 +1,34 @@
+{
+  "name": "simple-server-uitls",
+  "version": "0.0.1",
+  "description": "elno js simple server utility function",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnojs/simple-server-uitls.git"
+  },
+  "keywords": [
+    "nodejs",
+    "be",
+    "express"
+  ],
+  "author": "elnojs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elnojs/simple-server-uitls/issues"
+  },
+  "homepage": "https://github.com/elnojs/simple-server-uitls#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "typescript": "^4.4.4"
+  }
+}
