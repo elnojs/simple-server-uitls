@@ -7,6 +7,7 @@
     "test": "npm run test",
     "build": "tsc"
   },
+  "scope": "elnojs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elnojs/simple-server-uitls.git"
